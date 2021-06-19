@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  cognitoLoginURl: 'https://shareshop.auth.us-east-1.amazoncognito.com/login?client_id=103bmglrapqt85q9mhi950d5gr&response_type=code&scope=aws.cognito.signin.user.admin+email+openid+phone+profile&redirect_uri=https://localhost:4200/login'
 };
 
 /*

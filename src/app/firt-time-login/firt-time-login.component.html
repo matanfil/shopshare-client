@@ -1,0 +1,9 @@
+<form [formGroup]="ftlForm" (ngSubmit)="submit()">
+    <label for="busniess">Business</label>
+    <input type="radio" id="busniess" value="ROLE_BUSINESS" name="role" formControlName="role">
+
+    <label for="advertiser">Advertiser</label>
+    <input type="radio" id="advertiser" value="ROLE_ADVERTISER" name="role" formControlName="role">
+
+    <button type="submit">Submit</button>
+</form>
